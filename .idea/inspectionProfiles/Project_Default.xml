@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PyQt5.QtWidgets.clicked.connect" />
+          <option value="PyQt5.QtWidgets.textChanged.connect" />
+          <option value="PyQt5.QtWidgets.sliderMoved.connect" />
+          <option value="PyQt5.QtWidgets.valueChanged.connect" />
+          <option value="PyQt5.QtWidgets.returnPressed.connect" />
+          <option value="int.isChecked" />
+          <option value="int.addWidget" />
+          <option value="int.setCheckState" />
+          <option value="int.toggle" />
+          <option value="int.stateChanged" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
