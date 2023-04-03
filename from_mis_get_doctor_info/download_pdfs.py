@@ -27,7 +27,7 @@ for i in all_data.values.tolist():
     # resp1 = requests.get(foundation_level_materials_url, stream=True, timeout=20)
     # time.sleep(3)
     resp2 = requests.get(subject_review, stream=True, timeout=20)
-    time.sleep(2)
+    time.sleep(4)
     # with open(name + '基础水平材料.pdf', 'wb') as fd:
     #     fd.write(resp1.content)
     with open(name + '学科综述（研究计划书）.pdf', 'wb') as f:
